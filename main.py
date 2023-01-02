@@ -6,9 +6,9 @@ from selenium.webdriver.common.action_chains import ActionChains
 from time import sleep
 
 s = Service(r'C:\Users\Administrator\Desktop\cursuri\Udemy 100 Days of Python\chromedriver_win32\chromedriver.exe')
-email = 'ionescupv@gmail.com'
-password = 'Vladbossul'
-msg = 'haida la alergat pe lacu morii'
+email = 'your-email'
+password = 'your-password'
+msg = 'your-msg'
 
 driver = webdriver.Chrome(service=s)
 driver.get('https://tinder.com/')
